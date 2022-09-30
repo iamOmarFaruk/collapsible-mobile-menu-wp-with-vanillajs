@@ -1,4 +1,3 @@
-// onload
 
 // ? - Mobile Collapsable Menu
 window.onload = function () {
