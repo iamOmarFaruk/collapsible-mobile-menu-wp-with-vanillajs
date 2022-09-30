@@ -1,0 +1,69 @@
+/* ? ============ Mobile Collapsable Menu  ============== */
+/* max screen size 980px*/
+@media screen and (max-width: 980px) {
+/* mobile header customization  */
+   
+   /* change #mobile_menu to your actual class or id */
+	
+    #mobile_menu li ul {
+        padding-left: 0px !important;
+    }
+
+    #mobile_menu li a {
+        text-align: left !important;
+        font-size: 12px;
+        padding: 2px;
+    }
+
+    #mobile_menu li {
+        padding: 5px 0px !important;
+    }
+
+    li.menu-item-has-children a {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
+    /* hide submenu by default */
+    #mobile_menu li ul.sub-menu {
+        visibility: hidden !important;
+        display: none !important;
+    }
+
+
+
+
+
+#mobile_menu li ul.sub-menu {
+        visibility: hidden !important;
+        display: none !important;
+    }
+
+    #mobile_menu li ul.show-sub-menu {
+        visibility: visible !important;
+        display: block !important;
+    }
+
+    li.menu-item-has-children {
+        position: relative;
+    }
+
+    .sub-menu-toggle {
+        float: right;
+        position: absolute;
+        right: 15px;
+        font-weight: bold;
+        height: 18px;
+        width: 18px;
+        text-align: center;
+        color: #3f51b5; /* change the color */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 3px;
+        border-radius: 100%;
+        padding: 0px;
+    }
+}
+
+/* ? ============ Mobile Collapsable Menu  ============== */
